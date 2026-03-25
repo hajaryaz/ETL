@@ -1,0 +1,17 @@
+# requirements.txt
+
+# HTTP & Scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0            # faster HTML parser for BeautifulSoup
+
+# Database
+psycopg2-binary==2.9.9  # PostgreSQL adapter (binary = no compile needed)
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.3
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.2         # optional but nice for heatmaps
